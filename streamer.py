@@ -28,7 +28,7 @@ PORT = 8070
 
 # libcamera.Transform(rotation: int = 0, hflip: bool = False, vflip: bool = False, transpose: bool = False)
 TRANSFORM = libcamera.Transform()
-# TRANSFORM = Transform(rotation=180)
+# TRANSFORM = libcamera.Transform(rotation=180)
 
 # The camera likes to crop the image to get to STREAM_SIZE.
 # See
